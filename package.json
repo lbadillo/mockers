@@ -1,0 +1,16 @@
+{
+  "name": "mockers2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mock.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cli-api-mocker": "^1.0.8"
+  },
+  "scripts": {
+    "start": "mockit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
