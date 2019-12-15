@@ -2,3 +2,6 @@ npm init -y
 npm i -D cli-api-mocker
 npm run start
 https://medium.com/@muratcorlu/mocking-rest-endpoints-in-web-apps-easy-way-d4cd0e9db000
+
+
+docker run -d  -p 9090:9090 --name mocker1 mockerimage
