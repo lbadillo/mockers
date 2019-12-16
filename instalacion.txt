@@ -7,6 +7,8 @@ npm run start
 ********************************************
 docker build -t mockerimage .
 docker run -d  -p 9090:9090 --name mocker1 mockerimage
+//volumes windows
+docker run -d  -p 9090:9090 --name mockers -v D:\mocks:/mocks mockers
 ********************************************
 /* DOCUMENTACION */
 https://medium.com/@muratcorlu/mocking-rest-endpoints-in-web-apps-easy-way-d4cd0e9db000
